@@ -11476,6 +11476,23 @@ pre .code {
 @media (max-width: 991.98px) {
   .navbar .brand {
     display: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+  }
+  .navbar .brand .brand-img {
+    position: relative;
+    left: 0;
+    top: 0;
+    transform: none;
+    margin: 0 auto 10px;
+    width: 120px; /* Reduced size for mobile */
+    opacity: 1 !important;
+  }
+  .navbar .brand .brand-txt {
+    opacity: 1 !important;
+    bottom: 0 !important;
   }
 }
 
